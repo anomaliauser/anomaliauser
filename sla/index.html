@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu Site</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Página inicial -->
+    <main>
+
+        <section id="inicio" class="inicio">
+            <div class="texto">
+                <h2>Bem-vindo ao meu site!</h2>
+
+                <p>
+                    Conheça meus projetos, minhas ideias
+                    e um pouco mais sobre mim.
+                </p>
+
+                <a href="#projetos" class="botao">
+                    Ver projetos
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section id="sobre" class="secao">
+            <h2>Sobre mim</h2>
+
+            <p>
+                Aqui você pode escrever um pouco sobre
+                sua história, seus objetivos e interesses.
+            </p>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="secao">
+            <h2>Meus projetos</h2>
+
+            <div class="projetos">
+
+                <article class="card">
+                    <h3>Projeto 1</h3>
+
+                    <p>
+                        Descrição do primeiro projeto.
+                    </p>
+
+                    <a href="#" class="botao">Ver mais</a>
+                </article>
+
+                <article class="card">
+                    <h3>Projeto 2</h3>
+
+                    <p>
+                        Descrição do segundo projeto.
+                    </p>
+
+                    <a href="#" class="botao">Ver mais</a>
+                </article>
+
+                <article class="card">
+                    <h3>Projeto 3</h3>
+
+                    <p>
+                        Descrição do terceiro projeto.
+                    </p>
+
+                    <a href="#" class="botao">Ver mais</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="secao contato">
+            <h2>Fale comigo</h2>
+
+            <p>Entre em contato comigo!</p>
+
+            <form action="#" method="post">
+
+                <input
+                    type="text"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required
+                >
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    required
+                >
+
+                <textarea
+                    name="mensagem"
+                    placeholder="Digite sua mensagem"
+                    required
+                ></textarea>
+
+                <button type="submit" class="botao">
+                    Enviar mensagem
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 Meu Site - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
